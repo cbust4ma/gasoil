@@ -1,5 +1,5 @@
 # Etapa de producción
-FROM tomcat:10-jre17-slim
+FROM tomcat:10-jre11-slim
 
 COPY ./stationGasoil.war /usr/local/tomcat/webapps/ROOT.war
 
